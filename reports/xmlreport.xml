@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="72.976993">
+<testcase classname="Connect with the elearning users" name="Search users by its type and send the invitation and message" time="72.976993">
+<system-out><![CDATA[Given User is in the application............................................passed
+When login as a registered user "suman" "suman".............................passed
+And Navigate to the social network page search the "Divya" and its type and assert it.passed
+And click on send invitation and send the invitation request with "Please accept my invitation".passed
+Then Request sent successfully..............................................passed
+When click on send message button and send the "<subject>" and "Good morning Divya!".passed
+Then Message sent successfully..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
